@@ -25,6 +25,7 @@ You can now write a program to capture the incoming data, I have included an exa
 
 ###Pins
 A pin layout can be found below. It features the different numbering systems. The Arduino-Tiny core uses the outermost numbering system (PA1 = 9). What the pins are attached to is also shown.
+```
  ATMEL ATTINY84 / ARDUINO   
    
                               +-\/-+   
@@ -35,4 +36,6 @@ Serial          (D 10)  PB0  2|    |13  AREF (D  0) 10         RDown
      PWM      2 (D  8)  PB2  5|    |10  PA3  (D  3) 7          Down   
 GLED PWM      3 (D  7)  PA7  6|    |9   PA4  (D  4) 6          Right   
 RLED PWM      4 (D  6)  PA6  7|    |8   PA5  (D  5) 5      PWM RUp   
-                           +----+   
+                              +----+   
+                           
+```
